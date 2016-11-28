@@ -40,13 +40,15 @@ Just add the component to your application. By default it is immediately
 
 **WARNING:** Due to browser limitations the wake-lock is *not* effective 
 until the user first clicks/touches somewhere in the document. So, after 
-adding/enabling the component, it will *not* prevent sleep until the browser 
+adding/enabling the component, it will *not* prevent sleep until the user 
 interacts with the page in some way (scrolling *not* being an interaction).
+
+This limitation does not apply to iOS devices.
 
 
 ## How this works
 
-The component uses two tricks, depending on the operating system.
+The component uses two methods, depending on the operating system.
 
 On Android, a invisible dummy-video is played in the background.
 
