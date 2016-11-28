@@ -1,5 +1,7 @@
 # React wake-lock component
 
+[![NPM](https://nodei.co/npm/react-wakelock.png)](https://npmjs.org/package/react-wakelock)
+
 
 ## Introduction
 
@@ -7,6 +9,12 @@ This is an invisible React component that tries to keep the browser/client
 awake - especially for mobile devices.
 
  
+## Installation
+
+```
+npm i --save react-wakelock
+```
+
 ## How to use (READ THIS! IMPORTANT!) 
 
 ```javascript
