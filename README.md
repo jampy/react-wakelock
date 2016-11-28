@@ -56,8 +56,8 @@ seconds.
 
 ## Props
 
-- `enabled` - (`true` by default). You can use this property to control the 
-  component behavior. Sleep is prevented only in `enabled===true` state.
+- `preventSleep` - (`true` by default). You can use this property to control the 
+  component behavior. Sleep is prevented only in `preventSleep===true` state.
 
 
 ## Credits
