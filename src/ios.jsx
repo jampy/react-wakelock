@@ -39,7 +39,7 @@ let WakeLockIOS = React.createClass({
       this.timer = setInterval(() => {
 
         if (!document.hidden) {  // gh-richtr/NoSleep.js#25
-          location.href = '/';
+          location.href = location.href;  // gh-richtr/NoSleep.js#12
           setTimeout(window.stop, 0);
         }
 
