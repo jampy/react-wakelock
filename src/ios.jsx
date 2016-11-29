@@ -36,9 +36,7 @@ let WakeLockIOS = React.createClass({
 
     if (preventSleep && !this.timer) {
 
-console.log("start timer");
       this.timer = setInterval(() => {
-console.log("TICK");
         location.href = '/';
         setTimeout(window.stop, 0);
 
@@ -48,7 +46,6 @@ console.log("TICK");
 
     if (!preventSleep && this.timer) {
 
-console.log("stop timer");
       clearInterval(this.timer);
       this.timer = null;
 
