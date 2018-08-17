@@ -1,14 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 // method taken from https://github.com/richtr/NoSleep.js/blob/master/NoSleep.js
 // needs testing.
 
-let WakeLockIOS = React.createClass({
+let WakeLockIOS = createReactClass({
 
   displayName: "WakeLockIOS",
 
   propTypes: {
-    preventSleep: React.PropTypes.bool
+    preventSleep: PropTypes.bool
   },
 
   getDefaultProps() {

@@ -12,6 +12,8 @@
   "homepage": "https://github.com/jampy/react-wakelock#readme",
   "main": "./dist/index.js",
   "dependencies": {
+    "prop-types": "^15.6.0",
+    "create-react-class": "^15.6.0"
   },
   "peerDependencies": {
   },
