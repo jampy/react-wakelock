@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'; 
+import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 const media = {
   // taken from https://github.com/kud/blank-video
@@ -17,12 +19,12 @@ function addSourceToVideo(element, type, dataURI) {
 }
 
 
-let WakeLockAndroid = React.createClass({
+let WakeLockAndroid = createReactClass({
 
   displayName: "WakeLockAndroid",
 
   propTypes: {
-    preventSleep: React.PropTypes.bool
+    preventSleep: PropTypes.bool
   },
 
   getDefaultProps() {
